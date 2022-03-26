@@ -2,7 +2,6 @@ package com.maliksoft.hilt_dependency_injection
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -17,9 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         userRepository.save()
-
-        Toast.makeText(this,"",Toast.LENGTH_LONG).show()
-
 
 
 
